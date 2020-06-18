@@ -9,7 +9,7 @@ Mautic can create duplicate records
 ```json zoom
 {
   "id": 123,
-  "global_customer_id": "713249951"
+  "global_customer_id": "2675813863"
   ...
 }
 ```
@@ -31,6 +31,12 @@ PUT /api/contacts/batch/edit
 PATCH /api/contacts/batch/edit
 ```
 
+@snap
+@[1]
+@[2]
+@[3]
+@snapend
+
 ---
 
 ### How it Works
@@ -39,7 +45,7 @@ Enter DynamoDB
 
 ```json
 {
-  "Id": "MauticContact267582519",
+  "Id": "MauticContact2675813863",
   "LockExpiration": 1592509829,
   "EventSourceDates": {
     "AmpVehicle": 1592051820
