@@ -31,11 +31,9 @@ PUT /api/contacts/batch/edit
 PATCH /api/contacts/batch/edit
 ```
 
-@snap
 @[1]
 @[2]
 @[3]
-@snapend
 
 ---
 
