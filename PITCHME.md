@@ -6,7 +6,6 @@
 
 Mautic can create duplicate records
 
-Example:
 ```json zoom
 {
   "id": 123,
@@ -14,6 +13,11 @@ Example:
   ...
 }
 ```
+
+@snap[south span-100 text-gray text-08]
+@[2](Mautic's internal ID)
+@[3](VIN's surrogate ID)
+@snapend
 
 ---
 
@@ -45,8 +49,9 @@ Enter DynamoDB
 ```
 
 @snap[south span-100 text-gray text-08]
-@[2](You can step-and-ZOOM into fenced-code blocks, source files, and Github GIST.)
-@[3](Using GitPitch live code presenting with optional annotations.)
-@[4-6](This means no more switching between your slide deck and IDE on stage.)
+@[2](Identify the resource being locked)
+@[3](Specify when the lock expires (in epoch seconds))
+@[4-6](Extra credit: keep track of when things are updated)
+@[7](When the record itself will be deleted)
 @snapend
 
